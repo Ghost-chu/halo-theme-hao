@@ -95,10 +95,10 @@
                                 <i class="haofont hao-icon-weixin1 post-meta-icon"></i>公众号同步
                             </th:block>
                         </span> -->
-                        <a class="post-meta-pv" data-flag-title="热度"
-                           title="热度" >
+                        <a class="post-meta-pv" data-flag-title="查看"
+                           title="查看" >
                             <i class="haofont hao-icon-fire post-meta-icon"></i>
-                            <span class="post-meta-label">热度:</span>
+                            <span class="post-meta-label">查看:</span>
                             <span id="visit" th:text="${post.stats.visit}"></span>
                         </a>
                         <a th:if="${post.spec.allowComment && #strings.contains('Twikoo,Artalk,commentWidget',theme.config.comments.use)}"
